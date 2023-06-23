@@ -1,0 +1,38 @@
+body {
+	padding: 10px;
+}
+
+/* Tabela */
+.dentTable {
+	text-align: center;
+	width: 100%;
+}
+
+.action {
+	text-decoration: none;
+	color: #81D0F7;
+}
+
+.action:hover {
+	color: #EA90FC;
+}
+
+/* Modal */
+.modal {
+	padding: 50px;
+	display: none;
+	vertical-align: center;
+	z-index: 999;
+}
+
+.cover {
+	z-index: 99;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background-color: lightgrey;
+	opacity: 50%;
+	width: 100%;
+	height: 100%;
+}
